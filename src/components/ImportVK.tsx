@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation'
 
 const ImportVK = () => {
-  const VK_CLIENT_ID = '53680663'
+  const VK_CLIENT_ID = '53685297'
   const REDIRECT_URI = 'https://vercel-flax-delta.vercel.app/vk-auth' // продверсия позже
 
   const handleClick = () => {
