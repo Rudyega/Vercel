@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ImageCard } from "@/components/ImageCard";
-
+import ImportVK from '@/components/ImportVK'
 
 
 type Post = {
@@ -33,6 +33,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <div className="p-6">
+        <ImportVK />
         <h1 className="text-3xl font-bold text-[#3a2e1c] mb-6">
           Лента изображений
         </h1>
