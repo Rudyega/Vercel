@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 const ImportVK = () => {
   const VK_CLIENT_ID = '53680663'
-  const REDIRECT_URI = 'https://ed1b-195-58-50-102.ngrok-free.app/vk-auth' // продверсия позже
+  const REDIRECT_URI = 'https://vercel-flax-delta.vercel.app/vk-auth' // продверсия позже
 
   const handleClick = () => {
     const url = `https://oauth.vk.com/authorize?client_id=${VK_CLIENT_ID}&display=page&redirect_uri=${encodeURIComponent(
